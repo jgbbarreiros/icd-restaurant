@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurant name="Monapettit">
+	<details>
+		<designation>
+			Only the very best meals in Monapettit.
+		</designation>
+		<email>
+			monapettit@monapettit.com
+		</email>
+		<coordinates>
+			<N>somewhere</N>
+			<W>somewhere</W>
+		</coordinates>
+		<logo>
+			A fancy logo.
+		</logo>
+	</details>
+</restaurant>

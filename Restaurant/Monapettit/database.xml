@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<user id="0" birthday="yes">
+		<debt>0.0</debt>
+		<order id="1" status="accepted">
+			<item itref="1" name="Garlic Bread">1.25</item>
+			<item itref="3" name="Duck Rice">1.25</item>
+		</order>
+		<order id="2" status="accepted">
+			<item itref="1" name="Garlic Bread">1.25</item>
+			<item itref="3" name="Duck Rice">1.25</item>
+		</order>
+	</user>
+</users>

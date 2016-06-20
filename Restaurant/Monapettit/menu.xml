@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurant>
+	<items>
+		<item id="1" type="apetiser">
+			<name>
+				<en>Garlic Bread</en>
+				<pt>Pao de Alho</pt>
+				<fr>Pain à l'Ail</fr>
+			</name>
+			<composition>
+				<ingredient>
+					<en>Bread</en>
+					<pt>Pao</pt>
+					<fr>Pain</fr>
+				</ingredient>
+				<ingredient>
+					<en>Garlic</en>
+					<pt>Alho</pt>
+					<fr>Ail</fr>
+				</ingredient>
+			</composition>
+		</item>
+		<item id="2" type="apetiser">
+			<name>
+				<en>Stuffed Peppers</en>
+				<pt>Pimentos recheados</pt>
+				<fr>Poivrons Farcis</fr>
+			</name>
+			<composition>
+				<ingredient>
+					<en>Pepper</en>
+					<pt>Pimento</pt>
+					<fr>Poivre</fr>
+				</ingredient>
+				<ingredient>
+					<en>Tuna</en>
+					<pt>Atum</pt>
+					<fr>Thon</fr>
+				</ingredient>
+				<ingredient>
+					<en>Cheese</en>
+					<pt>Queijo</pt>
+					<fr>Fromage</fr>
+				</ingredient>
+				<ingredient>
+					<en>Rice</en>
+					<pt>Arroz</pt>
+					<fr>Riz</fr>
+				</ingredient>
+			</composition>
+		</item>
+		<item id="3" type="main">
+			<name>
+				<en>Duck Rice</en>
+				<pt>Arroz de Pato</pt>
+				<fr>Riz de Canard</fr>
+			</name>
+			<composition>
+				<ingredient>
+					<en>Rice</en>
+					<pt>Arroz</pt>
+					<fr>Riz</fr>
+				</ingredient>
+				<ingredient>
+					<en>Duck</en>
+					<pt>Pato</pt>
+					<fr>Canard</fr>
+				</ingredient>
+			</composition>
+		</item>
+		<item id="4" type="main">
+			<name>
+				<en>Cod of Cream</en>
+				<pt>Bacalhau com Natas</pt>
+				<fr>Morue à la Crême</fr>
+			</name>
+			<composition>
+				<ingredient>
+					<en>Codfish</en>
+					<pt>Bacalhau</pt>
+					<fr>Morue</fr>
+				</ingredient>
+				<ingredient>
+					<en>Cream</en>
+					<pt>Natas</pt>
+					<fr>Crème</fr>
+				</ingredient>
+			</composition>
+		</item>
+		<item id="5" type="main">
+			<name>
+				<en>Lasagna Bolognese</en>
+				<pt>Lasanha de Bolonhesa</pt>
+				<fr>Lasagne à la Bolognaise</fr>
+			</name>
+			<composition>
+				<ingredient>
+					<en>Pasta</en>
+					<pt>Massa</pt>
+					<fr>Pâte à Lasagne</fr>
+				</ingredient>
+				<ingredient>
+					<en>Minced Beef</en>
+					<pt>Carne Picada</pt>
+					<fr>Boeuf Hachée</fr>
+				</ingredient>
+			</composition>
+		</item>
+		<item id="6" type="main">
+			<name>
+				<en>Strogonoff</en>
+				<pt>Strogonoff</pt>
+				<fr>Strogonoff</fr>
+			</name>
+			<composition>
+				<ingredient>
+					<en>Rice</en>
+					<pt>Arroz</pt>
+					<fr>Riz</fr>
+				</ingredient>
+				<ingredient>
+					<en>Chicken</en>
+					<pt>Frango</pt>
+					<fr>Poulet</fr>
+				</ingredient>
+				<ingredient>
+					<en>Mushroom</en>
+					<pt>Cogumelo</pt>
+					<fr>Champignon</fr>
+				</ingredient>
+			</composition>
+		</item>
+		<item id="7" type="dessert">
+			<name>
+				<en>Fruit Salad</en>
+				<pt>Salada de Fruta</pt>
+				<fr>Salade de Fruit</fr>
+			</name>
+			<composition>
+				<ingredient>
+					<en>Apple</en>
+					<pt>Maca</pt>
+					<fr>Pomme</fr>
+				</ingredient>
+				<ingredient>
+					<en>Orange</en>
+					<pt>Laranja</pt>
+					<fr>Orange</fr>
+				</ingredient>
+				<ingredient>
+					<en>Pineapple</en>
+					<pt>Ananas</pt>
+					<fr>Ananas</fr>
+				</ingredient>
+				<ingredient>
+					<en>Kiwi</en>
+					<pt>Kiwi</pt>
+					<fr>Kiwi</fr>
+				</ingredient>
+			</composition>
+		</item>
+		<item id="8" type="dessert">
+			<name>
+				<en>Chocolate Puding</en>
+				<pt>Pudim de Chocolate</pt>
+				<fr>Puding Chocolat</fr>
+			</name>
+			<composition>
+				<ingredient>
+					<en>Sugar</en>
+					<pt>Acucar</pt>
+					<fr>Sucre</fr>
+				</ingredient>
+				<ingredient>
+					<en>Butter</en>
+					<pt>Manteiga</pt>
+					<fr>Beurre</fr>
+				</ingredient>
+				<ingredient>
+					<en>Chocolate</en>
+					<pt>Chocolate</pt>
+					<fr>Chocolat</fr>
+				</ingredient>
+			</composition>
+		</item>
+	</items>
+	<menu>
+		<weekday>
+			<lunch>
+				<item itref="1">1</item>
+				<item itref="2">1.5</item>
+				<item itref="5">2.95</item>
+				<item itref="7">3</item>
+				<item itref="8">2.5</item>
+			</lunch>
+			<dinner>
+				<item itref="3">3</item>
+				<item itref="4">3.5</item>
+				<item itref="8">1.95</item>
+			</dinner>
+		</weekday>
+		<restday>
+			<lunch>
+				<item itref="1">1.25</item>
+				<item itref="3">1.25</item>
+				<item itref="6">4</item>
+				<item itref="8">1.5</item>
+			</lunch>
+			<dinner>
+				<item itref="2">1.25</item>
+				<item itref="4">3</item>
+				<item itref="5">3.55</item>
+				<item itref="7">0.95</item>
+			</dinner>
+		</restday>
+	</menu>
+</restaurant>

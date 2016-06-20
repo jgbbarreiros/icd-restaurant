@@ -1,0 +1,124 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+<xs:element name="restaurant">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="items">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="item" maxOccurs="unbounded" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="name">
+<xs:complexType>
+<xs:sequence>
+<xs:element type="xs:string" name="en"/>
+<xs:element type="xs:string" name="pt"/>
+<xs:element type="xs:string" name="fr"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="composition">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="ingredient" maxOccurs="unbounded" minOccurs="0">
+<xs:complexType>
+<xs:sequence>
+<xs:element type="xs:string" name="en"/>
+<xs:element type="xs:string" name="pt"/>
+<xs:element type="xs:string" name="fr"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute type="xs:string" name="itID" use="optional"/>
+<xs:attribute type="xs:string" name="type" use="optional"/>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="menu">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="weekday">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="lunch">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="item" maxOccurs="unbounded" minOccurs="0">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:float">
+<xs:attribute type="xs:string" name="itref" use="optional"/>
+</xs:extension>
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="dinner">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="item" maxOccurs="unbounded" minOccurs="0">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:float">
+<xs:attribute type="xs:string" name="itref" use="optional"/>
+</xs:extension>
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="restday">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="lunch">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="item" maxOccurs="unbounded" minOccurs="0">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:float">
+<xs:attribute type="xs:string" name="itref" use="optional"/>
+</xs:extension>
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="dinner">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="item" maxOccurs="unbounded" minOccurs="0">
+<xs:complexType>
+<xs:simpleContent>
+<xs:extension base="xs:float">
+<xs:attribute type="xs:string" name="itref" use="optional"/>
+</xs:extension>
+</xs:simpleContent>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

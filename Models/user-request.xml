@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request>
+    <login id="1">
+        <client>user</client>
+        <birtday>no</birtday>
+    </login>
+
+    <menu language="en||pt||fr" type="lunch||dinner||unkown" weekday="weekday||restday||unkown"/>
+
+    <order language="en||pt||fr">
+        <item itref="1"></item>
+        <item itref="2"></item>
+        <item itref="3"></item>
+    </order>
+
+    <check>
+        <status/>
+        <debt/>
+    </check>
+
+    <pay/>
+
+    <leave/>
+
+</request>
